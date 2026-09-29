@@ -17,6 +17,7 @@ from neo4j_service import (
     search_books,
     seed_demo_data,
 )
+st.image("me.png", width=150)
 
 st.set_page_config(
     page_title="GraphBook Recommender",
@@ -25,7 +26,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-st.image("me.png", width=150)
+
 
 st.markdown(
     """
