@@ -25,6 +25,8 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+st.image("me.png", width=150)
+
 st.markdown(
     """
     <style>
