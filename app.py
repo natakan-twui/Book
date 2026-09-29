@@ -17,7 +17,7 @@ from neo4j_service import (
     search_books,
     seed_demo_data,
 )
-st.image("me.png", width=150)
+
 
 st.set_page_config(
     page_title="GraphBook Recommender",
@@ -96,6 +96,8 @@ def explain_reason(row: dict) -> str:
 
 
 require_connection()
+
+st.image("me.png", width=150)
 
 with st.sidebar:
     st.markdown("## 📚 GraphBook")
